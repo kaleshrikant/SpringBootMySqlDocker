@@ -1,0 +1,1 @@
+Sample application provide GET api for display list of person’s names. The sample data is fetching from MySql DB.
