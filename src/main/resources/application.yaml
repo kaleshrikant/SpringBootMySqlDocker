@@ -1,11 +1,11 @@
 spring:
   application:
-    name=SpringBootMySqlDocker:
+    name: SpringBootMySqlDocker
   datasource:
     username: shrikant
     password: kale
     initialization-mode: always
-    url: jdbc:mysql://localhost:3306/basics?allowPublicKeyRetrieval=true
+    url: jdbc:mysql://mysqldb:3333/basics?allowPublicKeyRetrieval=true
   sql:
     init:
       mode: 'always'
